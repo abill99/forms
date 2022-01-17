@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>  Forms Practice</title>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src=js/calculator.js></script> 
+    <script src="js/scripts.js"></script>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <h1> Types of Examples</h1>
+    <ul>
+    <li><a href="#" id="calculator" class="link-primary">Calculator Form</a></li>
+    <li><a href="#" id="forms" class="link-primary">Various Form Examples </a></li>
+    <li><a href="#" id="cipher"class="link-primary">Cipher Form</a> </li>
+    <li><a href="@" id="doms" class="link-primary">DOM Traversal</a></li>
+    </ul>
+
+    <div id=calculator class="container">
+      <H2> Calculator Form Example</H2>
+      <form id="calc">
+        <div class="mb-3">
+          <label for="number1" class="form-label">Enter first number</label>
+          <input type="number" id="number1" class="form-control" required></input>
+        </div>
+        <div class="mb-3">
+          <label for="number2" class="form-label">Enter second number</label>
+          <input type=number id="number2" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="operation" class="form-label">Select Action</label>
+          <select id="operation" class="form-select" aria-label="Default select example">
+            <option value="1" >Add </option>
+            <option value="2"> subtract</option>
+            <option value="3" selected>multiply</option>
+            <option value="4">divide</option>
+          </select>
+        </div>
+        <div class="form-group">
+        <button type="submit" class="btn btn-primary">submit</button>
+      </div>
+    </form>
+    <div id="output">
+    </div>
+  </div>
+
+  </body>
+</html>
