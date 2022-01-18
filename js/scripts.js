@@ -1,8 +1,7 @@
 $(document).ready(function(){
-  //initialze tooltiops
-  $('[data-bs-toggle="tooltip"]').tooltip(); 
 
-  $("form#calculator-form").submit(function(event){
+  //$("#doCalc").click(function(){
+  $("form#calc").submit(function(event){
     event.preventDefault();
     console.log("calculator id clicked")
     const number1 = parseInt($("#number1").val());
