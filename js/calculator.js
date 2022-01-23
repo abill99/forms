@@ -15,7 +15,6 @@ function divide(number1, number2) {
 }
 
 function calculate (number1, number2, operation) {
-   console.log("calculate::operation is " + operation);
     switch(operation){
       case 1 : 
        result = add(number1, number2);
@@ -30,7 +29,6 @@ function calculate (number1, number2, operation) {
         result = divide(number1, number2);
         break;
       default:
-        console.log("In case default")
         result = -99999999;
 
     }
